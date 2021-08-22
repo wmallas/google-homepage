@@ -1,6 +1,3 @@
-p {
-    color: green;
-}
 .about{
     position: relative;
     top: 5px;
@@ -12,7 +9,7 @@ p {
     text-decoration: none;
 }
 .about:hover{
-text-decoration: underline;
+    text-decoration: underline;
 }
 .store{
     position: relative;
