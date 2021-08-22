@@ -75,3 +75,11 @@ text-decoration: underline;
     /*background: #4285f4;*/    
 }
 
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    position: relative;
+    top: 100px;
+}
