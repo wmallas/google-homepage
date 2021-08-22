@@ -2,6 +2,8 @@ p {
     color: green;
 }
 .about{
+    position: relative;
+    top: 5px;
     color: #000;
     font-family: arial, sans-serif;
     opacity: 0.75;
@@ -13,6 +15,8 @@ p {
 text-decoration: underline;
 }
 .store{
+    position: relative;
+    top: 5px;
     color: #000;
     font-family: arial, sans-serif;
     opacity: 0.75;
@@ -26,6 +30,7 @@ text-decoration: underline;
 .gmail{
     position: relative;
     right: -915px;
+    top: 5px;
     color: #000;
     font-family: arial, sans-serif;
     opacity: 0.75;
@@ -39,6 +44,7 @@ text-decoration: underline;
 .images{
     position: relative;
     right: -900px;
+    top: 5px;
     color: #000;
     font-family: arial, sans-serif;
     opacity: 0.75;
@@ -48,4 +54,20 @@ text-decoration: underline;
 }
 .images:hover{
     text-decoration: underline;
+}
+.sign_in{
+    position: relative;
+    right: -950px;
+    top: 5px;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    color: white;
+    border: 1px solid #4285f4;
+    border-radius: 2px;
+    background: -webkit-linear-gradient(top, #4387fd, #4683ea);
+    padding-top: 0px;
+    padding-right: 12px;
+    padding-bottom: 0px;
+    padding-left: 12px;
+    /*background: #4285f4;*/    
 }
