@@ -59,15 +59,19 @@ text-decoration: underline;
     position: relative;
     right: -950px;
     top: 5px;
+    line-height: 28px;
     font-family: arial, sans-serif;
     font-size: 13px;
-    color: white;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
     border: 1px solid #4285f4;
     border-radius: 2px;
     background: -webkit-linear-gradient(top, #4387fd, #4683ea);
-    padding-top: 0px;
+    padding-top: 6px;
     padding-right: 12px;
-    padding-bottom: 0px;
+    padding-bottom: 6px;
     padding-left: 12px;
     /*background: #4285f4;*/    
 }
+
