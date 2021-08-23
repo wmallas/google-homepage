@@ -106,3 +106,18 @@
     top: 324px;
     left: 450px;
 }
+.search_button{
+    font-family: arial, sans-serif;
+    text-align: center;
+    white-space: nowrap;
+    background: #f8f9fa;
+    border: 1px #f8f9fa;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    height: 30px;
+    position: absolute;
+    top: 60px;
+    left: 125px;
+}
