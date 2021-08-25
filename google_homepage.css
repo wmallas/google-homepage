@@ -1,3 +1,10 @@
+body{
+    min-height: 100%;
+    min-width: 100%;
+}
+.non_footer{
+    padding-bottom: 100px;
+}
 .about{
     position: relative;
     top: 5px;
@@ -135,4 +142,124 @@
     position: absolute;
     top: 381px;
     left: 675px;
+}
+.advertising{
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    opacity: 0.75;
+    text-decoration: none;
+    padding: 10px;
+    top: 15px;
+}
+.advertising:hover{
+    text-decoration: underline;
+}
+.business{
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    opacity: 0.75;
+    text-decoration: none;
+    padding: 10px;
+    top: 15px;
+}
+.business:hover{
+    text-decoration: underline;
+}
+.how_search_works{
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    opacity: 0.75;
+    text-decoration: none;
+    padding: 10px;
+    top: 15px;
+}
+.how_search_works:hover{
+    text-decoration: underline;
+}
+.privacy{
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    opacity: 0.75;
+    text-decoration: none;
+    padding: 10px;
+    top: 15px;
+}
+.privacy:hover{
+    text-decoration: underline;
+}
+.terms{
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    opacity: 0.75;
+    text-decoration: none;
+    padding: 10px;
+    top: 15px;
+}
+.terms:hover{
+    text-decoration: underline;
+}
+.settings{
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    opacity: 0.75;
+    text-decoration: none;
+    padding: 10px;
+    top: 15px;
+}
+.settings:hover{
+    text-decoration: underline;
+}
+#nav1{
+    position: relative;
+    left: 25px;
+
+}
+#nav2{
+    position: relative;
+    left: 785px;
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: inline;
+}
+footer {
+    position: fixed;
+    top: 575px;
+    background: #f2f2f2;
+    border: 1px #f2f2f2;
+    width: 100%;
+    clear: both;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+}
+.bento_menu{
+    display: grid;
+    grid-template-columns: 5px 5px 5px;
+    grid-template-rows: 5px 5px 5px;
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+}
+.bento_dot{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #5f6368;
+    display: inline-block;
+    position: relative;
+    left: 1182px;
+    top: -60px;
+    opacity: 1;
 }
